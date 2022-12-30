@@ -1,0 +1,325 @@
+
+
+html{scroll-behavior:smooth}
+h1{scroll-margin-top:2em}
+h2{scroll-margin-top:2em}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 120px;
+    background-color: #00214d;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 0.2fr 1fr;
+    line-height: 120px;
+}
+
+header h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 45px;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+span{
+    color:#33b9e8;
+}
+
+.liste{
+    text-align: center;
+}
+
+a{
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+
+}
+
+.container{
+    height: 100vh;
+    display: grid;}
+
+.box1{
+    background-image: url(terre.jpg);
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    height: 90vh;
+    
+}
+.box1 h1{
+    font-size: 50px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin: 0;
+
+}
+
+.box1 p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: white;
+    width: 30%;
+    text-align: center;
+    font-size: 25px;
+
+
+}
+
+.box1 span{
+    color: #33b9e8;
+}
+
+.box2{
+    background-color: #00214d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+}
+
+.box2 h1{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 30px;
+    margin: 0;
+}
+
+.box3{
+    height: 20vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    width: 70%;
+    margin: 100px auto;
+}
+
+.box3 .network{
+    height: 100px;
+    width: 100px;
+
+}
+
+.box3 .system{
+    height: 100px;
+    width: 100px;
+
+}
+
+.box3 .host{
+    height: 100px;
+    width: 100px;
+
+}
+
+.box3 .repair{
+    height: 100px;
+    width: 100px;
+
+}
+
+.box3 .code{
+    height: 100px;
+    width: 100px;
+}
+
+.box3 p{
+    text-align: center;
+    color: rgb(39 50 58);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+.name{
+    display: flex;
+    justify-items: center;
+    justify-content: space-evenly;
+}
+
+.name p{
+    font-family: 'Lato', sans-serif;
+}
+
+
+.box4{
+    background-color: #00214d;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box4 h1{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 30px;
+    margin: 0;
+
+}
+
+.box5{
+    background-image: url(image.jpg);
+    background-position: center,center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.box5 .system{
+    height: 100px;
+    width: 100px;
+
+}
+
+.box5 .host{
+    height: 100px;
+    width: 100px;
+
+}
+
+.box5 .repair{
+    height: 100px;
+    width: 100px;
+
+}
+
+.box5 .code{
+    height: 100px;
+    width: 100px;
+}
+
+.box5 p{
+    text-align: center;
+    color: rgb(39 50 58);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+.box5 h1{
+    font-size: 30px;
+    color: #380d0d;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    top: 310px;
+}
+
+.border1{
+    border-left: black 1px solid;
+    border-right: black 1px solid;
+
+}
+
+.border2{
+    border-left: black 1px solid;
+    border-right: black 1px solid;
+
+}
+
+.value{
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    position: relative;
+    top: 345px;
+    display: grid;
+    width: 80%;
+    height: 45%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    background-color: #e7e3dcd9;
+    padding: 15px;
+}
+
+.value p{
+    color: #380d0d;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+}
+
+.value h3{
+    font-family: 'Lato', sans-serif;
+    padding: 20px;
+    text-align: justify;
+    font-weight: 500;
+    height: 50%;
+    text-align: center;
+}
+
+.box6{
+    background-color: #00214d;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.box6 h1{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 30px;
+    margin: 0;
+    position: relative;
+    left: 70px;
+}
+
+.box7{
+    background-color: rgb(46, 6, 6);
+    height: 10vh;
+
+}   
+.box5 .network{
+    height: 100px;
+    width: 100px;
+
+}
+ .box6 span{
+    width: 40%;
+    border: 0;
+    margin: 0 5px;
+    font-size: 16px;
+    color: #808080;
+ }
+
+ input{
+    padding: 10px;
+    border-radius: 15px;
+ }
+
+ .button{
+    background-color: #4a807c;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 7px;
+    font-size: 20px;
+    margin-left: 5px;
+    border: 1px solid #4a807c;
+ }
